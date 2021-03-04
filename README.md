@@ -11,4 +11,7 @@ In the working directory install the Node.JS dependencies like Express
 Add `index.js` file
 
 Build image
+`docker build -t diltheyaislan/hello-node .`
+
+Create container
 `docker run -p 3000:3000 diltheyaislan/hello-node`
